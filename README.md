@@ -30,9 +30,9 @@ This project is a small **User & Todo Management** system with:
 
 ### 2.1 Prerequisites
 
-- Node.js 18+ (Node 20 recommended)
+- Node.js 18+ 
 - npm
-- MongoDB running locally (or a connection string in the cloud)
+- MongoDB running locally 
 
 ### 2.2 Backend Setup
 
