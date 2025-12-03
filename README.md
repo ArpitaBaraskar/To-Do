@@ -208,18 +208,45 @@ Each todo is always scoped to the **logged-in user**; you cannot modify another 
     - Create / List / Update / Delete todos
   - The collection uses variables like `{{token}}` and `{{todoId}}` for convenience.
 
-### Screenshots
+---
 
-To include screenshots of Postman responses in your submission:
+## 6. Postman Screenshots
 
-1. Open Postman, use the imported collection.
-2. Send sample requests (e.g. **Register**, **Login**, **Create Todo**, **List Todos**).
-3. Take screenshots of the **request + response** views.
-4. Attach the images to your email or documentation (e.g. `screenshots/register.png`, `screenshots/todos-list.png`).
+Screenshots of API responses from Postman:
+
+### 6.1 Auth Endpoints
+
+#### Register
+![Register Endpoint](screenshots/register.png)
+
+#### Login
+![Login Endpoint](screenshots/login.png)
+
+#### Get Profile
+![Get Profile Endpoint](screenshots/profile.png)
+
+### 6.2 Todo Endpoints
+
+#### Create Todo
+![Create Todo Endpoint](screenshots/create-todo.png)
+
+#### List Todos (with Pagination)
+![List Todos Endpoint](screenshots/list-todos.png)
+
+#### Update Todo Status
+![Update Todo Status Endpoint](screenshots/update-todo.png)
+
+#### Delete Todo
+![Delete Todo Endpoint](screenshots/delete-todo.png)
+
+> **Note**: To add screenshots:
+> 1. Take screenshots in Postman showing the request and response
+> 2. Save them in the `screenshots/` folder with descriptive names (e.g., `register.png`, `login.png`)
+> 3. Update the image paths above to match your screenshot filenames
 
 ---
 
-## 6. Docker (Backend)
+## 7. Docker (Backend)
 
 `backend/Dockerfile` builds a production image for the API:
 
